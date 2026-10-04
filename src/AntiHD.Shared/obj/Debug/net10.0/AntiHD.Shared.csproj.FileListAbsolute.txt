@@ -1,0 +1,11 @@
+/home/linux-laptop/AntiHD/src/AntiHD.Shared/bin/Debug/net10.0/AntiHD.Shared.deps.json
+/home/linux-laptop/AntiHD/src/AntiHD.Shared/bin/Debug/net10.0/AntiHD.Shared.dll
+/home/linux-laptop/AntiHD/src/AntiHD.Shared/bin/Debug/net10.0/AntiHD.Shared.pdb
+/home/linux-laptop/AntiHD/src/AntiHD.Shared/obj/Debug/net10.0/AntiHD.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/linux-laptop/AntiHD/src/AntiHD.Shared/obj/Debug/net10.0/AntiHD.Shared.AssemblyInfoInputs.cache
+/home/linux-laptop/AntiHD/src/AntiHD.Shared/obj/Debug/net10.0/AntiHD.Shared.AssemblyInfo.cs
+/home/linux-laptop/AntiHD/src/AntiHD.Shared/obj/Debug/net10.0/AntiHD.Shared.csproj.CoreCompileInputs.cache
+/home/linux-laptop/AntiHD/src/AntiHD.Shared/obj/Debug/net10.0/AntiHD.Shared.dll
+/home/linux-laptop/AntiHD/src/AntiHD.Shared/obj/Debug/net10.0/refint/AntiHD.Shared.dll
+/home/linux-laptop/AntiHD/src/AntiHD.Shared/obj/Debug/net10.0/AntiHD.Shared.pdb
+/home/linux-laptop/AntiHD/src/AntiHD.Shared/obj/Debug/net10.0/ref/AntiHD.Shared.dll

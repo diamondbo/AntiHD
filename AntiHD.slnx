@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AntiHD.Shared/AntiHD.Shared.csproj" />
+    <Project Path="src/AntiHD.UI/AntiHD.UI.csproj" />
+    <Project Path="src/AntiHD.web/AntiHD.web.csproj" />
+  </Folder>
+</Solution>
