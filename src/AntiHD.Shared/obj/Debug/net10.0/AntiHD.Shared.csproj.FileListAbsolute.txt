@@ -9,3 +9,15 @@
 /home/linux-laptop/AntiHD/src/AntiHD.Shared/obj/Debug/net10.0/refint/AntiHD.Shared.dll
 /home/linux-laptop/AntiHD/src/AntiHD.Shared/obj/Debug/net10.0/AntiHD.Shared.pdb
 /home/linux-laptop/AntiHD/src/AntiHD.Shared/obj/Debug/net10.0/ref/AntiHD.Shared.dll
+C:\Users\dbate\github proj\AntiHD\src\AntiHD.Shared\bin\Debug\net10.0\AntiHD.Shared.deps.json
+C:\Users\dbate\github proj\AntiHD\src\AntiHD.Shared\bin\Debug\net10.0\AntiHD.Shared.dll
+C:\Users\dbate\github proj\AntiHD\src\AntiHD.Shared\bin\Debug\net10.0\AntiHD.Shared.pdb
+C:\Users\dbate\github proj\AntiHD\src\AntiHD.Shared\obj\Debug\net10.0\AntiHD.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dbate\github proj\AntiHD\src\AntiHD.Shared\obj\Debug\net10.0\AntiHD.Shared.AssemblyInfoInputs.cache
+C:\Users\dbate\github proj\AntiHD\src\AntiHD.Shared\obj\Debug\net10.0\AntiHD.Shared.AssemblyInfo.cs
+C:\Users\dbate\github proj\AntiHD\src\AntiHD.Shared\obj\Debug\net10.0\AntiHD.Shared.csproj.CoreCompileInputs.cache
+C:\Users\dbate\github proj\AntiHD\src\AntiHD.Shared\obj\Debug\net10.0\AntiHD.Shared.sourcelink.json
+C:\Users\dbate\github proj\AntiHD\src\AntiHD.Shared\obj\Debug\net10.0\AntiHD.Shared.dll
+C:\Users\dbate\github proj\AntiHD\src\AntiHD.Shared\obj\Debug\net10.0\refint\AntiHD.Shared.dll
+C:\Users\dbate\github proj\AntiHD\src\AntiHD.Shared\obj\Debug\net10.0\AntiHD.Shared.pdb
+C:\Users\dbate\github proj\AntiHD\src\AntiHD.Shared\obj\Debug\net10.0\ref\AntiHD.Shared.dll

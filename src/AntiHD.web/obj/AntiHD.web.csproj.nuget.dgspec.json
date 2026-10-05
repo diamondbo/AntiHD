@@ -1,30 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/home/linux-laptop/AntiHD/src/AntiHD.web/AntiHD.web.csproj": {}
+    "C:\\Users\\dbate\\github proj\\AntiHD\\src\\AntiHD.web\\AntiHD.web.csproj": {}
   },
   "projects": {
-    "/home/linux-laptop/AntiHD/src/AntiHD.Shared/AntiHD.Shared.csproj": {
+    "C:\\Users\\dbate\\github proj\\AntiHD\\src\\AntiHD.Shared\\AntiHD.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/linux-laptop/AntiHD/src/AntiHD.Shared/AntiHD.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\dbate\\github proj\\AntiHD\\src\\AntiHD.Shared\\AntiHD.Shared.csproj",
         "projectName": "AntiHD.Shared",
-        "projectPath": "/home/linux-laptop/AntiHD/src/AntiHD.Shared/AntiHD.Shared.csproj",
-        "packagesPath": "/home/linux-laptop/.nuget/packages/",
-        "outputPath": "/home/linux-laptop/AntiHD/src/AntiHD.Shared/obj/",
+        "projectPath": "C:\\Users\\dbate\\github proj\\AntiHD\\src\\AntiHD.Shared\\AntiHD.Shared.csproj",
+        "packagesPath": "C:\\Users\\dbate\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dbate\\github proj\\AntiHD\\src\\AntiHD.Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/linux-laptop/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dbate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -39,11 +44,10 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -61,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.401/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -339,27 +343,32 @@
         }
       }
     },
-    "/home/linux-laptop/AntiHD/src/AntiHD.UI/AntiHD.UI.csproj": {
+    "C:\\Users\\dbate\\github proj\\AntiHD\\src\\AntiHD.UI\\AntiHD.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/linux-laptop/AntiHD/src/AntiHD.UI/AntiHD.UI.csproj",
+        "projectUniqueName": "C:\\Users\\dbate\\github proj\\AntiHD\\src\\AntiHD.UI\\AntiHD.UI.csproj",
         "projectName": "AntiHD.UI",
-        "projectPath": "/home/linux-laptop/AntiHD/src/AntiHD.UI/AntiHD.UI.csproj",
-        "packagesPath": "/home/linux-laptop/.nuget/packages/",
-        "outputPath": "/home/linux-laptop/AntiHD/src/AntiHD.UI/obj/",
+        "projectPath": "C:\\Users\\dbate\\github proj\\AntiHD\\src\\AntiHD.UI\\AntiHD.UI.csproj",
+        "packagesPath": "C:\\Users\\dbate\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dbate\\github proj\\AntiHD\\src\\AntiHD.UI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/linux-laptop/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dbate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -374,11 +383,10 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.Components.Web": {
@@ -402,7 +410,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.401/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -680,34 +688,39 @@
         }
       }
     },
-    "/home/linux-laptop/AntiHD/src/AntiHD.web/AntiHD.web.csproj": {
+    "C:\\Users\\dbate\\github proj\\AntiHD\\src\\AntiHD.web\\AntiHD.web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/linux-laptop/AntiHD/src/AntiHD.web/AntiHD.web.csproj",
+        "projectUniqueName": "C:\\Users\\dbate\\github proj\\AntiHD\\src\\AntiHD.web\\AntiHD.web.csproj",
         "projectName": "AntiHD.web",
-        "projectPath": "/home/linux-laptop/AntiHD/src/AntiHD.web/AntiHD.web.csproj",
-        "packagesPath": "/home/linux-laptop/.nuget/packages/",
-        "outputPath": "/home/linux-laptop/AntiHD/src/AntiHD.web/obj/",
+        "projectPath": "C:\\Users\\dbate\\github proj\\AntiHD\\src\\AntiHD.web\\AntiHD.web.csproj",
+        "packagesPath": "C:\\Users\\dbate\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dbate\\github proj\\AntiHD\\src\\AntiHD.web\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/linux-laptop/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dbate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/linux-laptop/AntiHD/src/AntiHD.Shared/AntiHD.Shared.csproj": {
-                "projectPath": "/home/linux-laptop/AntiHD/src/AntiHD.Shared/AntiHD.Shared.csproj"
+              "C:\\Users\\dbate\\github proj\\AntiHD\\src\\AntiHD.Shared\\AntiHD.Shared.csproj": {
+                "projectPath": "C:\\Users\\dbate\\github proj\\AntiHD\\src\\AntiHD.Shared\\AntiHD.Shared.csproj"
               },
-              "/home/linux-laptop/AntiHD/src/AntiHD.UI/AntiHD.UI.csproj": {
-                "projectPath": "/home/linux-laptop/AntiHD/src/AntiHD.UI/AntiHD.UI.csproj"
+              "C:\\Users\\dbate\\github proj\\AntiHD\\src\\AntiHD.UI\\AntiHD.UI.csproj": {
+                "projectPath": "C:\\Users\\dbate\\github proj\\AntiHD\\src\\AntiHD.UI\\AntiHD.UI.csproj"
               }
             }
           }
@@ -722,17 +735,16 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.App.Internal.Assets": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.12, )",
+              "version": "[10.0.3, )",
               "autoReferenced": true
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
@@ -759,7 +771,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.401/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

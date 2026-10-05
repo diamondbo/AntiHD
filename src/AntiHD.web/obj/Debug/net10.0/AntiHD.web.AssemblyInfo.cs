@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AntiHD.web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e431bca2d8c3d21aeecfa90ac3ea93eb26977bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("AntiHD.web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AntiHD.web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
