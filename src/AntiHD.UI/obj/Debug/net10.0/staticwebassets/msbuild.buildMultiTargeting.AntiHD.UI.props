@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\AntiHD.UI.props" />
-</Project>
