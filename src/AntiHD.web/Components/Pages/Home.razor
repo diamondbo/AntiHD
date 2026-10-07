@@ -1,4 +1,5 @@
 ﻿@page "/main-dashboard"
+@using AntiHD.UI.Components
 
 <PageTitle>Dashboard</PageTitle>
 
@@ -7,13 +8,12 @@
         <div class="col-md-10">
             <h1>Main Dashboard</h1>
         </div>
-        <div><button class="btn btn-primary">+</button></div>
+        <div class="col-md-2"><button class="btn btn-primary">+</button></div>
     </div>
 </div>
 <div class="row">
     <div class="col-md-6">
-        <h2>Time</h2>
-        <p>This is the first section of the main dashboard.</p>
+        <DailyTasks />
     </div>
     <div class="col-md-6">
         <h2>Urgency</h2>

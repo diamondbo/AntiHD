@@ -1,0 +1,29 @@
+@inherits LayoutComponentBase
+<div class="card">
+    <div class="card-header">
+        <h6>Daily Tasks</h6>
+    </div>
+    <div class="card-body">
+        <ul>
+            <li><div class="row">
+                <div class="col-md-8">
+                    <strong>Task 1</strong>
+                    <p>Description of Task 1.</p>
+                </div>
+                <div class="col-md-4">
+                    <input type="checkbox" />
+                </div>
+            </div></li>
+            
+        </ul>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string discription { get; set; } = "Daily Tasks";
+    public void OnTaskCompleted(ChangeEventArgs e)
+    {
+        // Handle the event here
+    }
+}

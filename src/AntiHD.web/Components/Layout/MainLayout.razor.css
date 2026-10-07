@@ -1,5 +1,11 @@
-.red {
-    color: red;
+.web-hero {
+    background-color: #f8f9fa;
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
 #blazor-error-ui {
     color-scheme: light only;
