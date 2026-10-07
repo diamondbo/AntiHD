@@ -3,6 +3,6 @@
     <Project Path="src/AntiHD.Shared/AntiHD.Shared.csproj" />
     <Project Path="src/AntiHD.UI/AntiHD.UI.csproj" />
     <Project Path="src/AntiHD.web/AntiHD.web.csproj" />
-    <Project Path="src/AntiHD.web/AntiHD.webtest.csproj" />
+    <Project Path="src/AntiHD.webtest/AntiHD.webtest.csproj" />
   </Folder>
 </Solution>
