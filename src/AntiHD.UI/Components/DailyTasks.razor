@@ -5,15 +5,20 @@
     </div>
     <div class="card-body">
         <ul>
-            <li><div class="row">
-                <div class="col-md-8">
-                    <strong>Task 1</strong>
-                    <p>Description of Task 1.</p>
-                </div>
-                <div class="col-md-4">
-                    <input type="checkbox" />
-                </div>
-            </div></li>
+            @for (int i = 1; i <= numberOfTasks; i++)
+            {
+                <li>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <strong>Task @i</strong>
+                            <p>Description of Task @i.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="checkbox" @onchange="(e) => OnTaskCompleted(e, i)" />
+                        </div>
+                    </div>
+                </li>
+            }
             
         </ul>
     </div>
@@ -21,8 +26,10 @@
 
 @code {
     [Parameter]
-    public string discription { get; set; } = "Daily Tasks";
-    public void OnTaskCompleted(ChangeEventArgs e)
+    public string description { get; set; } = "Daily Tasks";
+    [Parameter]
+    public int numberOfTasks { get; set; }
+    public void OnTaskCompleted(ChangeEventArgs e, int taskId)
     {
         // Handle the event here
     }
