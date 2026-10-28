@@ -1,5 +1,5 @@
 @page "/create-user-test"
-@using AntiHD.Models
+@using AntiHD.DTOs
 @using AntiHD.Shared.Services
 
 @inject IUserServices UServ
@@ -26,7 +26,7 @@
     </div>
     <div class="mb-3">
     <label for="Password" class="form-label">Password:</label>
-        <InputText id="password" type="password" class="form-control" @bind-Value="UserModel.Password" />
+        <InputText id="password" type="password" aria-placeholder="Password" class="form-control" @bind-Value="UserModel.Password" />
     </div>
     <div class="mb-3">
     <label for="Email" class="form-label">Email:</label>
@@ -38,14 +38,26 @@
 </EditForm>
 
 @code{
-    private Users UserModel {get; set; } = new Users(){Username = "default",Password = "default"};
+    private CreateUserDto UserModel {get; set; } = new CreateUserDto()
+        {
+        Username = "Default",
+        Password = "Default"
+        };
     private string message = string.Empty;
     private async Task HandleCreateUser()
     {
-        var result = await UServ.CreateUserAsync(UserModel);
-        if(result == 0)
-           throw new Exception("no rows changed");
-        message = $"{result} rows updated";
+        try
+        {
+            var result = await UServ.CreateUserAsync(UserModel);
+            if(result == 0)
+                throw new Exception("no rows changed");
+            message = $"{result} rows updated";
+        }
+        catch(Exception e)
+        {
+            throw new Exception($"tis one {e.Message}");
+        }
+        
     }
     
 }

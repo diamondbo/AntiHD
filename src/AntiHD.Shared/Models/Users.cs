@@ -7,7 +7,7 @@ public class Users
     public string? LastName { get; set; }
     public required string Username { get; set; }
     public string? Email { get; set; }
-    public required string Password { get; set; }
+    public required string PasswordHash { get; set; }
     public DateTime CreatedOn { get; set; } = DateTime.UtcNow;
     public DateTime UpdatedOn { get; set; } = DateTime.UtcNow;
     public string CreateUser { get; set; } = "AntiHd";

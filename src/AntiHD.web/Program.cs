@@ -2,19 +2,24 @@ using AntiHD.web.Components;
 using AntiHD.Shared.Services;
 using AntiHD.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
+var dbPath = Path.GetFullPath(
+    Path.Combine(builder.Environment.ContentRootPath, "..", "AntiHD.Shared", "AntiHD.db"));
 
 builder.Services.AddDbContext<AntiHD_DbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlite($"Data Source={dbPath}"));
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents(options => options.DetailedErrors = true);
 
 builder.Services.AddScoped<IUserServices, UserServices>();
+builder.Services.AddScoped<IPasswordHasher<Users>, PasswordHasher<Users>>();
+builder.Services.AddScoped<IDtoMapper, DtoMapper>();
 
 var app = builder.Build();
 

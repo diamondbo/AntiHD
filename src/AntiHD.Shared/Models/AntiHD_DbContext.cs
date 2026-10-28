@@ -27,9 +27,10 @@ public class AntiHD_DbContextFactory : IDesignTimeDbContextFactory<AntiHD_DbCont
         public AntiHD_DbContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<AntiHD_DbContext>();
-            
+            var dbPath = Path.GetFullPath(
+            Path.Combine(Directory.GetCurrentDirectory(), "..", "AntiHD.Shared", "antihd.db"));
             // Hardcode your development/local connection string here safely for migrations
-            optionsBuilder.UseSqlite("Data Source=AntiHD.db");
+            optionsBuilder.UseSqlite($"Data Source={dbPath}");
             
 
             return new AntiHD_DbContext(optionsBuilder.Options);
