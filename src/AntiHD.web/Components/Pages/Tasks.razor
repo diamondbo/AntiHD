@@ -1,0 +1,50 @@
+@page "/tasks"
+@using AntiHD.UI.Components
+
+@rendermode InteractiveServer
+
+<PageTitle>Tasks</PageTitle>
+
+<div class="mode-select">
+    <select @onchange="OnModeChange" class="form-select">
+        <option value="daily" selected>Daily Tasks</option>
+        <option value="monthly">Monthly Tasks</option>
+    </select>
+</div>
+@if(task_hol != null)
+{
+    <p>@task_hol.TimeRangeTitle</p>
+    @foreach(var w in task_hol.task_desc)
+    {
+        <p>@w</p>
+    }
+}
+
+
+
+@code {
+    private string selectedMode = "daily";
+    private string message = string.Empty;
+    private TaskHolder task_hol = new TaskHolder();
+
+    private List<string> tasks = new List<string>();
+
+    protected override void OnInitialized()
+    {
+        task_hol.TimeRangeTitle = "daily";
+        task_hol.task_desc = new List<string> {"Task 1", "Task 2", "Task 3"};
+    }
+
+    private void OnModeChange(ChangeEventArgs e)
+    {
+        selectedMode = e.Value.ToString();
+        if(string.IsNullOrEmpty(selectedMode))
+            message = "No lsos";
+        //get list of tasks
+    }
+    private class TaskHolder
+    {
+        public string TimeRangeTitle { get; set;} = string.Empty;
+        public List<string> task_desc = new List<string>();
+    }
+}
